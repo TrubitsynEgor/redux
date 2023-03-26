@@ -1,8 +1,8 @@
 
 
-const AddTodoBtn = () => {
+const AddTodoBtn = ({ children }) => {
 	return (
-		<button className='btn btn-primary'>Add todo</button>
+		<button className='btn btn-primary'>{children}</button>
 	)
 }
 
